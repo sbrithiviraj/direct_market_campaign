@@ -18,7 +18,7 @@ Our dataset comes from the UCI Machine Learning repository [Portugese banking in
 ### All other models has both Training and Test accuracy at 0.90
 ### ROC-AUC evaluates the ranking performance across all decision thresholds independently of class distribution. Logistic Regression has the best Test RO-AUC score.
 ### K-Nearest Neighbors model was the quickest where as SVM took 1000 times more time than Logistic regression and 10000 times more than K-Nearest Neighbors.
-[Baseline Model Performance](images/Model_Perf_and_Efficiency_Compare.png)
+![Baseline Model Performance](images/Model_Perf_and_Efficiency_Compare.png)
 ## Hyperparameter tuning
 ### After hyperparameter tuning Decision tree test accuracy improved a lot. KNN was the fastest model and also the best performing model after tuning.
 
@@ -27,7 +27,7 @@ Our dataset comes from the UCI Machine Learning repository [Portugese banking in
 ### Employed and retired has more possibility to fall under Yes category
 
 ### Previous marketing campaign negatives are still tough to convince.
-[Interpretation of coefficients & Feature importance](images/feature_interpretation.png)
+![Interpretation of coefficients & Feature importance](images/feature_interpretation.png)
 
 # Next Steps
 ### Deploy the tuned Logistic regression / SVM scoring pipeline into the CRM to rank contacts into lift-based targets. Restrict outbound phone outreach to the top 30-40% of scored leads to capture over 75% of all  potential subscribers while cutting call center overhead by more than 50%.
