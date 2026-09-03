@@ -3,7 +3,7 @@
 Goal is to compare the performance of the classifiers, namely K Nearest Neighbor, Logistic Regression, Decision Trees, and Support Vector Machines. We will utilize a dataset related to marketing bank products over the telephone. The data is related with direct marketing campaigns (phone calls) of a Portuguese banking institution. The classification goal is to predict if the client will subscribe a term deposit.
 # Getting Started
 ## Code
-
+[Click here for Jupyter Notebook Source Code](https://github.com/sbrithiviraj/direct_market_campaign/blob/main/comparing_classifiers.ipynb "Git")
 ## Installation
 To execute the code below libraries need to be installed
 1. matplotlib
